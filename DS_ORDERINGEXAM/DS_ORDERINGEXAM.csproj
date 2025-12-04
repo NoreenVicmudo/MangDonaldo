@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED8FA444-5700-484A-993A-4328C6977DC3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DS_ORDERINGEXAM</RootNamespace>
+    <AssemblyName>DS_ORDERINGEXAM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Foodpanda-Logo.wine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5fb21aefc0aa94d8a84531611d8fe708.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9a66c3f38bcbb5940d790d9fd58855ee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51cf98d133efc7c86d321faaa261fb14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\McDonald%27s_1968_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-food-toast-burger-png-image_9113989.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-food-fried-foods-chicken-nuggets-png-image_5743082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\French_Fries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenfilletnewrice-435x320-v1-1-1587974756.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\585ac06b4f6ae202fedf293b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mcdonald_s_chicken_mcnuggets_png_2022_by_wcwjunkbox_dfk5k47-fullview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\70550-king-hamburger-double-mcdonald%27s-cheeseburger-pounder-burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\014-2pcs-BIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59-500x500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0da3c67727e9f254965e05445eb2b8f6ede8c8e4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDS200401_SC_DK_Sundae_500-13-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\302-3026115_premium-roast-iced-coffee-mcdonalds-iced-coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\McCafe_Premium_Roast_Coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mcdonald_s_coca_cola_png_2022_by_wcwjunkbox_dfk5nsl-fullview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4e4326fcd0792fe52bf7cc26dd4e8b76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7065b46a9bf647d5d156638a0874addd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raspberry-Iced-Tea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy-meal-logo-4C58F3EFFA-seeklogo.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1pc Chicken McDo with Rice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\McDonalds-Logo-1953.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\McDonald%27s_Golden_Arches.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53599451.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\370097295_898954178495891_4350100013946061755_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\375199586_246397545094493_3080832210360722872_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\396775730_711670664348918_4136781793000921651_n.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
